@@ -3,13 +3,7 @@ I discovered an image and, since there wasn't any code associated with it, I dec
 <img src="/img/sample1.png" alt="Sample 1"/>
 <img src="/img/sample2.png" alt="Sample 2"/>
 
+Tested in Chrome, Mozilla Firefox and Edge (Not Safari yet). 
 
 
 
-
-
-Base Box
-# https://codepen.io/pacea87/pen/OJywqrj
-
-Positions
-https://stackoverflow.com/questions/46772848/calculating-element-width-in-javascript-gives-wrong-results
