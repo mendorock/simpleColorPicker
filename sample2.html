@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Color Picker Responsive</title>
+    <link rel="stylesheet" href="css/simplePickColor.css">
+    <script src="js/simpleColorPicker.js"></script>
+<style>
+.myRow{
+    display: flex;
+    flex-direction: row;
+}
+</style>
+</head>
+<body>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br><br>
+    <div class="myRow">
+        <div class="">Please Select Color: </div>
+        <div class=""><input type="text" id="myColor"></div>
+    </div>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="myRow">
+        <div style="padding-left: 200px;">
+        </div>
+        <div>
+            <input type="text" id="myColor2">
+        </div>
+    </div>
+    <br><br>
+
+<script>
+new simpleColorPicker('myColor',{
+    width: 30,
+    height: 30,
+    colors: ['#6667AB','#a55233','#f0d43a','black', '#cccccc', 'blue', '#0f0', 'green', '#BB2649', '#430f58', 'orange', 'yellow', 'red', 'aqua'],
+});
+
+new simpleColorPicker('myColor2',{
+    width: 50,
+    height: 50,
+    colors: ['#ff00ff', '#cccccc', 'blue', '#0f0', 'green', '#BB2649', 'orange'],
+    borderColor: 'black',
+});
+</script>
+</body>
+</html>
